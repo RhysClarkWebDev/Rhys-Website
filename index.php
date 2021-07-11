@@ -3,10 +3,13 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="resetstyle.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 		<title>Web Developer Portfolio, UI/UX Javacript Specialist</title>
 		<meta name="description" content="Freelance Wordpress and Front-End Web Developer specialising in UI/UX.">
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -81,43 +84,53 @@
 						<p style="padding: 0 15%;">Hello, my name is Rhys and I am a Front-End Web Developer currently in the process of becoming a full stack
 						Web Developer. I have serious passion for UI/UX, animations and creating intuitive, dynamic user experiences.
 						I specialise in javascript to bring your content to life. Are you interested?<br>
-						<a href="contact.html">Let's start a project.</a></p>
+						<a href="contact.html" class="right-arrow">Let's start a project.</a></p>
 					</div>
+				</div>
+			</div>
 
 
 
 
 <!--FAST RESPONSIVE INITUITIVE DYNAMIC-->
-
-					<div class="frid">
-							<article class="fast">
-								<img src="img/fast.png" alt="Fast">
-								<h2>Fast</h2>
-								<p>Fast load times and lag free interaction. Of Highest Priority (Positively Affects Search Results and User Experience)</p>
-							</article>
-							<article class="responsive">
-								<img src="img/responsive.png" alt="Responsive">
-								<h2>Responsive</h2>
-								<p>My layouts will work on any devive layout, big or small.</p>
-							</article class="inituitive">
-							<article>
-								<img src="img/inituitive.png" alt="Inituitive">
-								<h2>Inituitive</h2>
-								<p>Creative thinking for easy to use, inituitive UI/UX.</p>
-							</article>
-							<article class="dynamic">
-								<img src="img/dynamic.png" alt="Dynamic">
-								<h2>Dynamic</h2>
-								<p>Websites dont have to be static, see yours come to life before your eyes.</p>
-							</article>
+			<div class="wrapper">
+				<div id="about-content">
+					<div class="about-main">
+						<div class="frid">
+								<article class="fast">
+									<img src="img/fast.png" alt="Fast">
+									<h2>Fast</h2>
+									<p>Fast load times and lag free interaction. Of Highest Priority (Positively Affects Search Results and User Experience)</p>
+								</article>
+								<article class="responsive">
+									<img src="img/responsive.png" alt="Responsive">
+									<h2>Responsive</h2>
+									<p>My layouts will work on any devive layout, big or small.</p>
+								</article class="inituitive">
+								<article>
+									<img src="img/inituitive.png" alt="Inituitive">
+									<h2>Inituitive</h2>
+									<p>Creative thinking for easy to use, inituitive UI/UX.</p>
+								</article>
+								<article class="dynamic">
+									<img src="img/dynamic.png" alt="Dynamic">
+									<h2>Dynamic</h2>
+									<p>Websites dont have to be static, see yours come to life before your eyes.</p>
+								</article>
+						</div>
 					</div>
+				</div>
+			</div>
 
 
 					<!--PORTFOLIO-->
 					<div class="portfolio-wrap">
 						<div class="portfolio-rewrap">
 							<div class="portfolio-grid">
-								<article class="CherryParts">
+								<div class="port-header">
+									<h2>PORTFOLIO</h2>
+								</div>
+								<article class="CherryParts port1">
 									<div class="portfolio-image-container rectangle">
 										<img src="" alt="Cherry Parts Website Web Developer Portfolio">
 										<div class="">
@@ -126,7 +139,7 @@
 									</div>
 								</article>
 
-								<article class="-">
+								<article class="port2">
 									<div class="portfolio-image-container rectangle">
 										<img src="" alt="Cherry Parts Website Web Developer Portfolio">
 										<div class="">
@@ -135,7 +148,7 @@
 									</div>
 								</article>
 
-								<article class="-">
+								<article class="port3">
 									<div class="portfolio-image-container rectangle">
 										<img src="" alt="Cherry Parts Website Web Developer Portfolio">
 										<div class="">
@@ -143,52 +156,59 @@
 										</div>
 									</div>
 								</article>
+								<div class="portfoliobutton">
+									<button type="button" name="button">View all</button>
+								</div>
 							</div>
 						</div>
 					</div>
 
-
-					<span class="myskills"><h2>MY SKILLS</h2></span>
-					<div class="skills-grid">
-						<article class="html">
-							<img src="img/html.png" alt="Image">
-							<h2>HTML</h2>
-							<p>HTML (Hyper Text Markup Language) is your basic language used to include content on your website.
-							Text, Links, Images, Videos, Etc</p>
-						</article>
-						<article class="css">
-							<img src="img/css.png" alt="CSS">
-							<h2>CSS</h2>
-							<p>CSS (Cascading Style Sheets) tells the webpage how to layout the HTML which allows for a truly customisable
-							website that fulfills all of your needs</p>
-						</article>
-						<article class="javascript">
-							<img src="img/javascript.png" alt="Javascript">
-							<h2>JAVASCRIPT</h2>
-							<p>JavaScript is a client-side programming language which helps web developer to do Web Application Development
-								and make dynamic and interactive web pages by implementing custom client-side scripts. Developers can also
-								use cross-platform runtime engines like Node. js to write server-side code in JavaScript.</p>
-						</article>
-						<article class="seo">
-							<img src="img/seologo.png" alt="SEO">
-							<h2>SEO</h2>
-							<p>Special care is taken to provide you with the very best Search Engine Optimisation.
-							This means that your website isnt only on the web but is one of the very first to show in
-							googles search results.</p>
-						</article>
-						<article class="ui">
-							<img src="img/ui.png" alt="Brackets">
-							<h2>UI/UX</h2>
-							<p>User Interface/User Experience. At the most basic level, the user interface (UI) is the series of screens,
-								pages, and visual elements—like buttons and icons—that enable a person to interact with a product or service.
-								User experience (UX), on the other hand, is the internal experience that a person has as they interact with every aspect of a
-								company’s products and services.</p>
-						</article>
+			<div class="wrapper">
+				<div id="about-content">
+					<div class="about-main">
+						<span class="myskills"><h2>MY SKILLS</h2></span>
+						<div class="skills-grid">
+							<article class="html">
+								<img src="img/html.png" alt="Image">
+								<h2>HTML</h2>
+								<p>HTML (Hyper Text Markup Language) is your basic language used to include content on your website.
+								Text, Links, Images, Videos, Etc</p>
+							</article>
+							<article class="css">
+								<img src="img/css.png" alt="CSS">
+								<h2>CSS</h2>
+								<p>CSS (Cascading Style Sheets) tells the webpage how to layout the HTML which allows for a truly customisable
+								website that fulfills all of your needs</p>
+							</article>
+							<article class="javascript">
+								<img src="img/javascript.png" alt="Javascript">
+								<h2>JAVASCRIPT</h2>
+								<p>JavaScript is a client-side programming language which helps web developer to do Web Application Development
+									and make dynamic and interactive web pages by implementing custom client-side scripts. Developers can also
+									use cross-platform runtime engines like Node. js to write server-side code in JavaScript.</p>
+							</article>
+							<article class="seo">
+								<img src="img/seologo.png" alt="SEO">
+								<h2>SEO</h2>
+								<p>Special care is taken to provide you with the very best Search Engine Optimisation.
+								This means that your website isnt only on the web but is one of the very first to show in
+								googles search results.</p>
+							</article>
+							<article class="ui">
+								<img src="img/ui.png" alt="Brackets">
+								<h2>UI/UX</h2>
+								<p>User Interface/User Experience. At the most basic level, the user interface (UI) is the series of screens,
+									pages, and visual elements—like buttons and icons—that enable a person to interact with a product or service.
+									User experience (UX), on the other hand, is the internal experience that a person has as they interact with every aspect of a
+									company’s products and services.</p>
+							</article>
+							</div>
+						</div><!--About Content ID-->
 					</div>
 				</div>
 
 
-
+			<div class="wrapper">
 				<div class="" style="padding-top:45px;">
 					<hr style=-"color:white;">
 					<hr style=-"color:white;">
@@ -197,8 +217,7 @@
 					<hr style=-"color:white;">
 					<hr style=-"color:white;">
 				</div>
-
-			</div>
+			</div> <!--Wrapper Div-->
 		</div>
 
 

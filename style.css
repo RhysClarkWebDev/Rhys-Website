@@ -1,47 +1,47 @@
 @-webkit-keyframes color-change {
 
   0%{
-    border-bottom: 4px solid #4AF4F7;
-    box-shadow: 0px 15px 30px #4AF4F7;
+    border-bottom: 1px solid #4AF4F7;
+    box-shadow: 0px 0px 10px #4AF4F7;
   }
   25%{
-    border-bottom: 4px solid #F33065;
-    box-shadow: 0px 15px 30px #F33065;
+    border-bottom: 1px solid #F33065;
+    box-shadow: 0px 0px 10px #F33065;
   }
   50%{
-    border-bottom: 4px solid #ffcc73;
-    box-shadow: 0px 15px 30px #ffcc73;
+    border-bottom: 1px solid #ffcc73;
+    box-shadow: 0px 0px 10px #ffcc73;
   }
   75%{
-    border-bottom: 4px solid #65ff31;
-    box-shadow: 0px 15px 30px #65ff31;
+    border-bottom: 1px solid #65ff31;
+    box-shadow: 0px 0px 10px #65ff31;
   }
   100%{
-    border-bottom: 4px solid #4AF4F7;
-    box-shadow: 0px 15px 30px #4AF4F7;
+    border-bottom: 1px solid #4AF4F7;
+    box-shadow: 0px 0px 10px #4AF4F7;
   }
 }
 @keyframes color-change {
 
   0%{
-    border-bottom: 4px solid #4AF4F7;
-    box-shadow: 0px 15px 30px #4AF4F7;
+    border-bottom: 1px solid #4AF4F7;
+    box-shadow: 0px 0px 10px #4AF4F7;
   }
   25%{
-    border-bottom: 4px solid #F33065;
-    box-shadow: 0px 15px 30px #F33065;
+    border-bottom: 1px solid #F33065;
+    box-shadow: 0px 0px 10px #F33065;
   }
   50%{
-    border-bottom: 4px solid #ffcc73;
-    box-shadow: 0px 15px 30px #ffcc73;
+    border-bottom: 1px solid #ffcc73;
+    box-shadow: 0px 0px 10px #ffcc73;
   }
   75%{
-    border-bottom: 4px solid #65ff31;
-    box-shadow: 0px 15px 30px #65ff31;
+    border-bottom: 1px solid #65ff31;
+    box-shadow: 0px 0px 10px #65ff31;
   }
   100%{
-    border-bottom: 4px solid #4AF4F7;
-    box-shadow: 0px 15px 30px #4AF4F7;
+    border-bottom: 1px solid #4AF4F7;
+    box-shadow: 0px 0px 10px #4AF4F7;
   }
 }
 body{
@@ -192,6 +192,7 @@ body{
   -webkit-animation: color-change 8s infinite;
   animation: color-change 8s infinite;
   z-index: 100;
+  border-radius: 0px 0px 15px 15px;
 }
 #nav-main ul{
   display: -webkit-flex;
@@ -212,6 +213,7 @@ body{
   text-decoration: none;
   color: white;
   transition: color 0.5s;
+  padding: 0px 20px;
 }
 #nav-main ul li a:hover{
   color: #F33065;
@@ -234,8 +236,8 @@ body{
   z-index: 101;
   color: white;
   transform: rotate(-90deg);
-  font-size: 18px;
-  font-family: 'exo 2', sans-serif;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
 }
 .email-constant a:hover {
   color: #1E1E1E;
@@ -252,16 +254,16 @@ body{
 }
 
 #about-content p {
-  font-size: 18px;
+  font-size: 16px;
   color: white;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Poppins', sans-serif;
 
 }
 
 #about-content h2 {
-  font-size: 30px;
+  font-size: 24px;
   color: white;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #about-content a {
   color: #4AF4F7;
@@ -277,33 +279,81 @@ body{
   margin-top: 100px;
   background-color: #666666;
   transform: rotate(2deg);
-  width: 200%;
-  height: 50vh;
+  width: 100%;
+  height: 450px;
   position: relative;
-  left: -50%;
   z-index: 0;
   color: white;
   overflow: hidden;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px #666666;
 }
 
 .portfolio-rewrap{
   transform: rotate(-2deg);
-  margin-top: 60px;
-  width: 200%;
-  position: relative;
-  left: 25%;
-}
-.portfolio-grid{
+  margin-top: 30px;
+  width: 100%;
+  height: inherit;
   display: flex;
 
 }
+.portfolio-grid{
+  width: inherit;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(6, 16.67%);
+  grid-template-columns: repeat(5, 18%);
+  grid-column-gap: 20px;
+  grid-template-areas:
+  ". . header . ."
+  ". port1 port2 port3 ."
+  ". port1 port2 port3 ."
+  ". port1 port2 port3 ."
+  ". . . . portbutton"
+  ". . . . ."
+}
+
+.port-header{
+  grid-area: header;
+  height: 100%;
+  width:100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.port1{
+  grid-area: port1;
+  text-align: center;
+}
+
+.port2{
+  grid-area: port2;
+}
+
+.port3{
+  grid-area: port3;
+}
+
+.portfoliobutton{
+  grid-area:portbutton;
+}
+.portfolio-grid h2{
+  font-size: 24px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
 .rectangle{
-  width: 30%;
+  width: 100%;
   height: 300px;
   background-color: black;
+  border: 2px solid white;
+}
+.portfoliobutton button{
+
 }
 
 /*THIS IS THE END OF PORTFOLIO SECTION STYLING*/
@@ -460,7 +510,7 @@ body{
 .footer-content h4{
   color: #7C7C7C;
   padding-top: 30px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
@@ -480,15 +530,15 @@ body{
 .contact-info h2{
   font-size: 30px;
   color: white;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   margin-top: 60px;
 }
 
 .contact-info p{
-  font-size: 18px;
+  font-size: 16px;
   color: white;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #form-container{
@@ -500,7 +550,7 @@ body{
   border-radius: 25px 25px 25px 25px;
   box-shadow: 0px 0px 12px grey;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(3, 33.3%);
   grid-auto-rows: 100%;
 
   z-index: 0;
@@ -523,7 +573,7 @@ body{
 .contact-address-contact h4{
   color: #7C7C7C;
   padding-top: 30px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #email-form{
@@ -535,18 +585,18 @@ body{
   justify-content: center;
   align-items: center;
   height: 650px;
-  grid-column: 2/3;
+  grid-column: 2/4;
   text-align: center;
 }
 .error {
   color: #eb1a1a;
   display: block;
   text-transform: uppercase;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .form-box h2{
   color: white;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   margin-bottom: 15px;
 }
@@ -639,7 +689,7 @@ body{
   color: #65ff31;
   display: block;
   text-transform: uppercase;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .social-contact img{
   width: 60px;
@@ -657,6 +707,35 @@ body{
 
 
 
+@media only screen and (max-width: 1100px){
+  .frid{
+    width: 100%;
+    margin: 0 0;
+    grid-column-gap: 60px;
+  }
+
+  .skills-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    overflow: visible;
+    height: auto;
+  }
+  .skills-grid img{
+    margin-top: 60px;
+  }
+}
 
 
 
@@ -680,6 +759,27 @@ body{
   }
   .form-box input{
     width: 100%;
+  }
+}
+@media only screen and (max-width:768px){/*STANDARD TABLET SIZE*/
+  .portfolio-grid{
+    width: inherit;
+    display: grid;
+    grid-template-rows: repeat(6, 16.67%);
+    grid-template-columns: repeat(5, 20%);
+    grid-column-gap: 20px;
+    grid-template-areas:
+    ". . header . ."
+    ". port1 port2 port3 ."
+    ". port1 port2 port3 ."
+    ". port1 port2 port3 ."
+    ". . . . ."
+    ". . portbutton . ."
+  }
+  .portfoliobutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media only screen and (max-width: 570px){
@@ -769,34 +869,5 @@ body{
   }
   .form-box input{
     width: 310px;
-  }
-}
-@media only screen and (max-width: 1100px){
-  .frid{
-    width: 100%;
-    margin: 0 0;
-    grid-column-gap: 60px;
-  }
-
-  .skills-grid {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    display: -webkit-flex;
-    -webkit-flex-direction: normal;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-justify-content: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-    overflow: visible;
-    height: auto;
-  }
-  .skills-grid img{
-    margin-top: 60px;
   }
 }
