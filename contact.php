@@ -6,8 +6,8 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="resetstyle.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="resetstyle.css?version=#">
+		<link rel="stylesheet" type="text/css" href="style.css?version=#">
 		<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
@@ -43,8 +43,8 @@
 				<div class="nav-wrapper">
 					<ul>
 						<li><a href="index.php">Home</a></li>
-						<li><a href="method.html">Method</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="method.php">Method</a></li>
+						<li><a href="index.php#portfolio-wrap">Portfolio</a></li>
 						<li><a  style="color:#F33065;" href="contact.php">Contact</a></li>
 					</ul>
 				</div>
@@ -63,7 +63,7 @@
 			<div id="form-container">
 				<div class="contact-left">
 					<div class="social-contact">
-						<h4>Follow Me On Social Media</h4>
+						<h4>Social Media</h4>
 						<div class="social-img">
 							<a href="www.facebook.com/RhysClarkWebDev"><img src="imgsocial/facebook.png" alt="Facebook"></a>
 							<a href="www.Instagram/ig.clxrk"><img src="imgsocial/instagram.png" alt="instagram"></a>
@@ -76,11 +76,6 @@
 						<p>07783557905</p>
 						<h4>Email</h4>
 						<p>WebDev@rhys-clark.com</p>
-						<h4>Address</h4>
-						<p>18 Rutland Road<br>
-						Moorside<br>
-						Consett<br>
-						DH8 8EF</p>
 					</div>
 			</div>
 				<div class="form-box">
@@ -93,16 +88,30 @@
 						<label for="text">What are your requirements?</label>
 						<textarea name="message" rows="8" cols="80" placeholder="How many pages?"></textarea>
 						<div class="error"><?php echo $message_error;?></div>
-						<label for="budget">Budget</label>
+						<label for="budget" class="budget-label">Budget</label>
 						<div class="radio-section">
-							<label for="£100-£200">£100-£200</label><input type="radio" name="budget" value="£100-£200" id="£100-£200">
-							<label for="£200-£300">£200-£300</label><input type="radio" name="budget" value="£200-£300" id="£200-£300">
-							<label for="£300-£400">£300-£400</label><input type="radio" name="budget" value="£300-£400" id="£300-£400">
-							<label for="£400-£500">£400-£500</label><input type="radio" name="budget" value="£400-£500" id="£400-£500">
-							<label for="£500+">£500+</label><input type="radio" name="budget" value="£500+" id="£500+">
+							<div class="£500-£750 radio-flex">
+								<label for="£500-£750">£500-£750</label><input type="radio" name="budget" value="£500-£750" id="£500-£750">
+							</div>
+							<div class="£750-£1000 radio-flex">
+								<label for="£750-£1000">£750-£1000</label><input type="radio" name="budget" value="£750-£1000" id="£750-£1000">
+							</div>
+
+							<div class="£1000-£1500 radio-flex">
+								<label for="£1000-£1500">£1000-£1500</label><input type="radio" name="budget" value="£1000-£1500" id="£1000-£1500">
+							</div>
+
+							<div class="£1500-£2000 radio-flex">
+								<label for="£1500-£2000">£1500-£2000</label><input type="radio" name="budget" value="£1500-£2000" id="£1500-£2000">
+							</div>
+
+							<div class="£2000+ radio-flex">
+								<label for="£2000+">£2000+</label><input type="radio" name="budget" value="£2000+" id="£2000+">
+							</div>
+
 							<div class="error"><?php echo $budget_error;?></div>
 						</div>
-						<div class="g-recaptcha" data-sitekey="6LcqM-4UAAAAACihMseWbgt0OPNQ2fZ93BEnGWem"></div><br>
+						<div class="g-recaptcha" data-sitekey="6LcqM-4UAAAAACihMseWbgt0OPNQ2fZ93BEnGWem"data-size="compact"></div><br>
 						<div class="error"><?php echo $recaptcha_error;?></div>
 						<button type="submit" name="submit">Submit</button>
 						<div class="sent"><?php echo $success;?></div>
@@ -115,7 +124,7 @@
 				<div class="footer-content">
 					<div class="footer-grid">
 						<div class="social">
-							<h4>Follow Me On Social Media</h4>
+							<h4>Social Media</h4>
 							<div class="social-img">
 								<a href="www.facebook.com/RhysClarkWebDev"><img src="imgsocial/facebook.png" alt="Facebook"></a>
 								<a href="www.Instagram/ig.clxrk"><img src="imgsocial/instagram.png" alt="instagram"></a>
@@ -128,11 +137,6 @@
 							<p>07783557905</p>
 							<h4>Email</h4>
 							<p>WebDev@rhys-clark.com</p>
-							<h4>Address</h4>
-							<p>18 Rutland Road<br>
-							Moorside<br>
-							Consett<br>
-							DH8 8EF</p>
 						</div>
 						<div class="privacy">
 							<p>©Rhys Clark Web Developer<br>All Rights Reserved.<a href="privacy.html">Privacy Policy</a></p>
