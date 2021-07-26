@@ -1,0 +1,81 @@
+/*PRELOADER CSS FOR ALL PAGES*/
+body.noscroll{
+  overflow-y: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.preloader{
+  position: fixed;
+  top: 0;
+  left: 0px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 1001;
+}
+.preloader.active{
+  transform: translateY(-100%);
+  transition: ease-in-out 1500ms;
+  transition-delay: 1000ms;
+}
+.preloader::before{
+  content: 'Loading';
+  position: absolute;
+  font-size: 12rem;
+  text-transform:uppercase;
+  font-weight: 700;
+  color: rgba(255,255,255,0.03);
+  font-family: 'poppins', sans-serif;
+}
+.counter{
+  position:relative;
+  color: #ccc;
+  font-size: 16rem;
+  font-weight: 600;
+  font-family: 'poppins', sans-serif;
+}
+.counter::after{
+  content:'%';
+  font-size: 0.5em;
+
+}
+.hide{
+  opacity: 0;
+  transition: 1s;
+  pointer-events: none;
+}
+@media only screen and (max-width:900px){
+  .preloader::before{
+    font-size: 10rem;
+  }
+  .counter{
+    font-size: 14rem;
+  }
+}
+@media only screen and (max-width: 768px){
+  .preloader::before{
+    font-size: 8rem;
+  }
+  .counter{
+    font-size: 12rem;
+  }
+}
+@media only screen and (max-width:580px){
+  .preloader::before{
+    font-size: 6rem;
+  }
+  .counter{
+    font-size: 10rem;
+  }
+}
+@media only screen and (max-width:425px){
+  .preloader::before{
+    font-size: 4rem;
+  }
+  .counter{
+    font-size: 6rem;
+  }
+}

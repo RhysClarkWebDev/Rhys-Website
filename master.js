@@ -2,7 +2,7 @@ const openMenu = document.getElementById("openmenu");
 const closeMenu = document.getElementById("closemenu");
 const mainMenu = document.getElementById("hamburger-fullscreen-container");
 const menuContainer = document.getElementById("hamburger-menu-container");
-const body = document.querySelector("body");
+
 
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);

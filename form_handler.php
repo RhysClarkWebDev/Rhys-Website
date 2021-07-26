@@ -49,9 +49,16 @@
         $message_body .= "$key: $value\n";
       }
 
+
+
       $to = 'webdev@rhys-clark.com';
       $subject = test_input($_POST["budget"]);
-      $headers = "From: $email";
+
+      $headers = "From: $email" . "\r\n";
+      $headers .= "MIME-Version: 1.0\r\n";
+      $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+      $headers .= "CC: rhysclark14@yahoo.com\r\n";
+
       if (mail($to, $subject, $message, $headers)){
         $success = "Message Sent";
         $email = $budget = $subject = $message = '';
