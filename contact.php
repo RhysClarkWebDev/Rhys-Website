@@ -17,6 +17,7 @@ master.js?version=1.1﻿<!DOCTYPE>
 		<meta name="description" content="Contact me on a Web Development project, i specialise in an array of different languages.">
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
@@ -30,6 +31,7 @@ master.js?version=1.1﻿<!DOCTYPE>
 		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
 		<link rel="manifest" href="img/manifest.json">
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
