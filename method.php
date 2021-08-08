@@ -8,13 +8,13 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="resetstyle.css?version=#">
     <link rel="stylesheet" type="text/css" href="methodstyle.css?version=#">
-		<link rel="stylesheet" type="text/css" href="preloader.css?version=1">
+		<link rel="stylesheet" type="text/css" href="preloader.css?version=1.12">
 		<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
-		<title>Web Developer Portfolio, UI/UX Javacript Specialist</title>
+		<title>Method Web Developer Portfolio, UI/UX Javascript Specialist</title>
 		<meta name="description" content="This is the method i will use with you during our relationship together on our web development project.">
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">

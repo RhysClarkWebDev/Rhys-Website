@@ -7,14 +7,14 @@ master.js?version=1.1﻿<!DOCTYPE>
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="resetstyle.css?version=#">
-		<link rel="stylesheet" type="text/css" href="style.css?version=1.14">
-		<link rel="stylesheet" type="text/css" href="preloader.css?version=1">
+		<link rel="stylesheet" type="text/css" href="style.css?version=1.17">
+		<link rel="stylesheet" type="text/css" href="preloader.css?version=1.12">
 		<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
-		<title>Web Developer Portfolio, UI/UX Javacript Specialist</title>
-		<meta name="description" content="Hello, Im Rhys Clark. I am a Freelance Front-End Web Developer specialising in UI/UX, come and have a look at my portfolio site.">
+		<title>Contact - Web Developer Portfolio, UI/UX Javascript Specialist</title>
+		<meta name="description" content="Contact me on a Web Development project, i specialise in an array of different languages.">
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
@@ -100,11 +100,11 @@ master.js?version=1.1﻿<!DOCTYPE>
 						<div class="footer-content">
 							<div class="footer-emailnumber">
 								<div class="footer-contact">
-									<p>&nbsp;webdev@rhys-clark.com</p>
+									<p style="line-height: 1.2">&nbsp;webdev@rhys-clark.com</p>
 									<h3>Email -</h3>
 								</div>
 								<div class="footer-contact">
-									<p>&nbsp;07783557905</p>
+									<p style="line-height: 1.2">&nbsp;077835&zwj;57905</p>
 									<h3>Mobile -</h3>
 								</div>
 							</div>
@@ -112,25 +112,25 @@ master.js?version=1.1﻿<!DOCTYPE>
 								<div class="footer-contact">
 									<a href="https://facebook.com/RhysClarkWebDev">
 										<p>Facebook</p>
-										<img src="imgsocial/facebook.png" alt="">
+										<img src="imgsocial/facebook.png" alt="Facebook Social Image">
 									</a>
 								</div>
 								<div class="footer-contact">
 									<a href="https://Instagram.com/RhysClarkWebDev">
 										<p>Instagram</p>
-										<img src="imgsocial/instagram.png" alt="">
+										<img src="imgsocial/instagram.png" alt="Instagram Social Image">
 									</a>
 								</div>
 								<div class="footer-contact">
 									<a href="https://github.com/RhysClarkWebDev">
 										<p>Github</p>
-										<img src="imgsocial/github.png" alt="">
+										<img src="imgsocial/github.png" alt="Github Social Image">
 									</a>
 								</div>
 								<div class="footer-contact">
-									<a href="www.linkedin.com/in/rhysclarkwebdev">
+									<a href="https://www.linkedin.com/in/rhysclarkwebdev">
 										<p>LinkedIn</p>
-										<img src="imgsocial/LinkedIn.png" alt="">
+										<img src="imgsocial/LinkedIn.png" alt="LinkedIn Social Image">
 									</a>
 								</div>
 							</div>
@@ -185,30 +185,38 @@ master.js?version=1.1﻿<!DOCTYPE>
 								<div class="footer-content">
 									<div class="footer-emailnumber">
 										<div class="footer-contact">
-											<p>&nbsp;webdev@rhys-clark.com</p>
+											<p style="line-height: 1.2">&nbsp;webdev@rhys-clark.com</p>
 											<h3>Email -</h3>
 										</div>
 										<div class="footer-contact">
-											<p>&nbsp;07783557905</p>
+											<p style="line-height: 1.2">&nbsp;077835&zwj;57905</p>
 											<h3>Mobile -</h3>
 										</div>
 									</div>
 									<div class="footer-links">
 										<div class="footer-contact">
-											<p>Facebook</p>
-											<img src="imgsocial/facebook.png" alt="">
+											<a href="https://facebook.com/RhysClarkWebDev">
+												<p>Facebook</p>
+												<img src="imgsocial/facebook.png" alt="Facebook Social Image">
+											</a>
 										</div>
 										<div class="footer-contact">
-											<p>Instagram</p>
-											<img src="imgsocial/instagram.png" alt="">
+											<a href="https://Instagram.com/RhysClarkWebDev">
+												<p>Instagram</p>
+												<img src="imgsocial/instagram.png" alt="Instagram Social Image">
+											</a>
 										</div>
 										<div class="footer-contact">
-											<p>Github</p>
-											<img src="imgsocial/github.png" alt="">
+											<a href="https://github.com/RhysClarkWebDev">
+												<p>Github</p>
+												<img src="imgsocial/github.png" alt="Github Social Image">
+											</a>
 										</div>
 										<div class="footer-contact">
-											<p>LinkedIn</p>
-											<img src="imgsocial/LinkedIn.png" alt="">
+											<a href="https://www.linkedin.com/in/rhysclarkwebdev">
+												<p>LinkedIn</p>
+												<img src="imgsocial/LinkedIn.png" alt="LinkedIn Social Image">
+											</a>
 										</div>
 									</div>
 									<div class="footerCopyright">
