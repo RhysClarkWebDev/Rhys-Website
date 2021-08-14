@@ -43,11 +43,6 @@
 <!--Start Of text & Illustrations-->
 <body>
 	<html>
-		<div class="preloader">
-			<div class="counter">
-					63
-			</div>
-		</div>
 
 		<div class="method-section">
 			<!--HAMBURGER NAVIGATION MENU-->
