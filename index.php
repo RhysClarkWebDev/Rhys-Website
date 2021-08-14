@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<script src="Node_Installs/node_modules/aos/dist/aos.js"></script>
-		<link rel="stylesheet" type="text/css" href="resetstyle.css?version=#">
-		<link rel="stylesheet" type="text/css" href="style.css?version=1.17">
-		<link rel="stylesheet" type="text/css" href="preloader.css?version=1.12">
+		<link rel="stylesheet" type="text/css" href="css/resetstyle.css?version=#">
+		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.17">
+		<link rel="stylesheet" type="text/css" href="css/preloader.css?version=1.12">
 		<link rel="stylesheet" href="Node_Installs/node_modules/aos/dist/aos.css" />
 		<meta name="google-site-verification" content="_6x-KfPn-Sa0j8rYFOq90W849b3f24EB70aWiCQB-88" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +41,7 @@
 		<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script type="text/javascript" src="preloader.js"></script>
+		<script type="text/javascript" src="js/preloader.js"></script>
 		<script src="Node_Installs/node_modules/aos/dist/aos.js"></script>
 
 	</head>
@@ -109,8 +109,8 @@
 
 			</div>
 			<div id="particles-js"></div>
-			<script type="text/javascript" src="particles.min.js"></script>
-			<script type="text/javascript" src="customParticles.js"></script>
+			<script type="text/javascript" src="js/particles.min.js"></script>
+			<script type="text/javascript" src="js/customParticles.js"></script>
 		</div>
 
 
@@ -440,7 +440,7 @@
 			</div>
 		</footer>
 
-		<script type="text/javascript" src="master.js?version=1.1"></script>
+		<script type="text/javascript" src="js/master.js?version=1.1"></script>
 	</body>
 
 </html>

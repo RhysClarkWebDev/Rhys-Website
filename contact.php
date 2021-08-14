@@ -6,9 +6,9 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="resetstyle.css?version=#">
-		<link rel="stylesheet" type="text/css" href="style.css?version=1.17">
-		<link rel="stylesheet" type="text/css" href="preloader.css?version=1.12">
+		<link rel="stylesheet" type="text/css" href="css/resetstyle.css?version=#">
+		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.17">
+		<link rel="stylesheet" type="text/css" href="css/preloader.css?version=1.12">
 
 		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
@@ -41,7 +41,7 @@
 
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script type="text/javascript" src="preloader.js"></script>
+		<script type="text/javascript" src="js/preloader.js"></script>
 
 	</head>
 
@@ -51,8 +51,8 @@
 
 
 		<div id="particles-js"></div>
-		<script type="text/javascript" src="particles.min.js"></script>
-		<script type="text/javascript" src="customParticles.js"></script>
+		<script type="text/javascript" src="js/particles.min.js"></script>
+		<script type="text/javascript" src="js/customParticles.js"></script>
 
 		<!--MOBILE HAMBURGER MENU-->
 		<div class="hamburger-menu-container"id="hamburger-menu-container">
@@ -226,7 +226,7 @@
 						</footer>
 
 
-		<script type="text/javascript" src="master.js?version=1.1"></script>
+		<script type="text/javascript" src="js/master.js?version=1.1"></script>
 	</body>
 
 </html>

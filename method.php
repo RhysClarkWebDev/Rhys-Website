@@ -6,9 +6,9 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="resetstyle.css?version=#">
-    <link rel="stylesheet" type="text/css" href="methodstyle.css?version=#">
-		<link rel="stylesheet" type="text/css" href="preloader.css?version=1.12">
+		<link rel="stylesheet" type="text/css" href="css/resetstyle.css?version=#">
+    <link rel="stylesheet" type="text/css" href="css/methodstyle.css?version=#">
+		<link rel="stylesheet" type="text/css" href="css/preloader.css?version=1.12">
 		<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
@@ -37,7 +37,7 @@
 		<meta name="theme-color" content="#ffffff">
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script type="text/javascript" src="preloader.js"></script>
+		<script type="text/javascript" src="js/preloader.js"></script>
 
 	</head>
 <!--Start Of text & Illustrations-->
@@ -73,7 +73,7 @@
 				</div>
 			</div>
 
-		<script type="text/javascript" src="master.js?version=1.1"></script>
+		<script type="text/javascript" src="js/master.js?version=1.1"></script>
 
 
 		  <div class="method-flex  wrapper">
