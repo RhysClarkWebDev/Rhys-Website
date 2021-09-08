@@ -3,14 +3,14 @@
 	<head>
 		<script src="Node_Installs/node_modules/aos/dist/aos.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/resetstyle.css?version=#">
-		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.17">
+		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.2">
 		<link rel="stylesheet" type="text/css" href="css/preloader.css?version=1.12">
 		<link rel="stylesheet" href="Node_Installs/node_modules/aos/dist/aos.css" />
 		<meta name="google-site-verification" content="_6x-KfPn-Sa0j8rYFOq90W849b3f24EB70aWiCQB-88" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
@@ -18,7 +18,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 		<title>Web Developer Portfolio, UI/UX Javascript Specialist</title>
-		<meta name="description" content="Freelance Wordpress and Front-End Web Developer specialising in UI/UX, Animation and Javascript">
+		<meta name="description" content="UK based Freelance Front End Web Developer & Web Designer specialising in UI / UX, Animation and Javascript. Ecommerce store design and development available.">
+		<meta name="keywords" content="web developer, website developer, front end developer, web developer near me, freelance, website developers, ecommerce, agency web design">
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -81,6 +82,7 @@
 				<li><a href="method.php">Method</a></li>
 				<!-- <li><a href="portfolio.php">Portfolio</a></li> -->
 				<li><a href="contact.php">Contact</a></li>
+				<li><a href="pricing.php">Pricing</a></li>
 			</ul>
 		</div>
 	</div>
@@ -132,7 +134,7 @@
 				<div id="about-content">
 					<div class="about-main about-wrap">
 						<h2>ABOUT</h2>
-						<p>Hello, my name is Rhys and I am a Front-End Web Developer. I have a serious passion for UI/UX, animations and creating intuitive, dynamic user experiences.
+						<p>Hello, my name is Rhys and I am a Front End Web Developer. I have a serious passion for UI / UX, animations and creating intuitive, dynamic user experiences.
 						I specialise in javascript to bring your content to life. I'm confident in my work and you will be too. Are you interested?<br>
 						<a href="contact.php" class="right-arrow" style="margin-top: 15px;">Let's start a project.</a></p>
 						<div class="skills-new-container">
@@ -306,29 +308,66 @@
 			</div>
 
 					<!--PORTFOLIO-->
-		<!--			<template>
 			<div class="wrapper">
 
-				<div class="portfolioBackground services-wrap">
+				<div  data-aos="zoom-out" data-aos-offset="400" class="portfolioBackground services-wrap">
 					<div class="portfolio-inner">
+						<div class="portfolio-inner-left">
+							<div class="portfolio-inner-left-image-container">
+								<img src="img/cherryPartsPortfolio.png" alt="">
+							</div>
+						</div>
+						<div class="portfolio-inner-right">
+							<h2>Cherry Parts Ltd</h2>
+							<h3>A trade supplier of fire safety equipment</h3>
+							<ul>
+								<li>Development done by me (HTML, CSS, PHP, Javascript)</li>
+								<li>Created on Wordpress so the client can update regularly</li>
+								<li>Simple design for B2B Audience</li>
+								<li>Design provided by NPS</li>
+							</ul>
+							<div class="portfolio-button-holder">
+
+								<div>
+									<p>Live</p>
+									<a href="https://cherry-parts.co.uk">
+										<div class="portfolioButtons">
+											<p>View</p>
+										</div>
+									</a>
+								</div>
+								<div style="visibility: hidden;">
+									<p>Repo</p>
+									<a href="#">
+										<div class="portfolioButtons">
+											<p>View</p>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="portfolio-inner" style="display:none;">
 						<div class="portfolio-inner-left">
 							<div class="portfolio-inner-left-image-container">
 								<img src="img/macbook.png" alt="">
 							</div>
 						</div>
 						<div class="portfolio-inner-right">
-							<h2>Header 2</h2>
-							<h3>Header 3</h3>
+							<h2>No Ordinary Event</h2>
+							<h3>Bespoke Event organising Company</h3>
 							<ul>
-								<li>List 1</li>
-								<li>List 2</li>
-								<li>List 3</li>
+								<li>Design and Development by me (HTML, CSS, Javascript)</li>
+								<li>Fun, Exciting look and feel to emphasise the playfulness of the brand</li>
+								<li>Basic brochure site to be improved upon in the future</li>
 							</ul>
 							<div class="portfolio-button-holder">
 
 								<div>
 									<p>Live</p>
-									<a href="#">
+									<a href="https://www.noordinaryevent.co.uk">
 										<div class="portfolioButtons">
 											<p>View</p>
 										</div>
@@ -345,45 +384,10 @@
 							</div>
 						</div>
 					</div>
+					<div class="">
 
-
-					<div class="portfolio-inner">
-						<div class="portfolio-inner-left">
-							<div class="portfolio-inner-left-image-container">
-								<img src="img/macbook.png" alt="">
-							</div>
-						</div>
-						<div class="portfolio-inner-right">
-							<h2>Header 2</h2>
-							<h3>Header 3</h3>
-							<ul>
-								<li>List 1</li>
-								<li>List 2</li>
-								<li>List 3</li>
-							</ul>
-							<div class="portfolio-button-holder">
-
-								<div>
-									<p>Live</p>
-									<a href="#">
-										<div class="portfolioButtons">
-											<p>View</p>
-										</div>
-									</a>
-								</div>
-								<div>
-									<p>Repo</p>
-									<a href="#">
-										<div class="portfolioButtons">
-											<p>View</p>
-										</div>
-									</a>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
-</template> -->
 
 
 

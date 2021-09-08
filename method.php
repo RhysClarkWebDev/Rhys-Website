@@ -69,6 +69,7 @@
 						<li><a href="method.php">Method</a></li>
 						<!-- <li><a href="portfolio.php">Portfolio</a></li> -->
 						<li><a href="contact.php">Contact</a></li>
+						<li><a href="pricing.php">Pricing</a></li>
 					</ul>
 				</div>
 			</div>

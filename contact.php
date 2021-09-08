@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/resetstyle.css?version=#">
-		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.17">
+		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.2">
 		<link rel="stylesheet" type="text/css" href="css/preloader.css?version=1.12">
 
 		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
@@ -78,6 +78,7 @@
 					<li><a href="method.php">Method</a></li>
 					<!-- <li><a href="portfolio.php">Portfolio</a></li> -->
 					<li><a href="contact.php">Contact</a></li>
+					<li><a href="pricing.php">Pricing</a></li>
 				</ul>
 			</div>
 		</div>
@@ -149,6 +150,8 @@
 							<textarea name="message" rows="8" cols="80" placeholder="How many pages?"></textarea>
 							<div class="error"><?php echo $message_error;?></div>
 							<label for="budget" class="budget-label">Budget</label>
+
+							<!--
 							<div class="radio-section">
 								<div class="£500-£750 radio-flex">
 									<label for="£500-£750">£500-£750</label><input type="radio" name="budget" value="£500-£750" id="£500-£750">
@@ -170,11 +173,21 @@
 								</div>
 
 								<div class="error"><?php echo $budget_error;?></div>
-							</div>
+							</div> -->
+
+							<input type="text" name="budget" value="<?php echo $budget;?>" placeholder="Budget?">
+
+
 							<div class="g-recaptcha" data-sitekey="6LcqM-4UAAAAACihMseWbgt0OPNQ2fZ93BEnGWem"data-size="compact"></div><br>
 							<div class="error"><?php echo $recaptcha_error;?></div>
 							<button type="submit" name="submit">Submit</button>
-							<div class="sent"><?php echo $success;?></div>
+
+
+							<div class="sent">
+									<p><?php echo $success;?></p>
+							</div>
+
+
 						</form>
 					</div>
 				</div>
