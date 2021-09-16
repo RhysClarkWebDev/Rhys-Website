@@ -3,7 +3,7 @@
 	<head>
 		<script src="Node_Installs/node_modules/aos/dist/aos.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/resetstyle.css?version=#">
-		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.2">
+		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.21">
 		<link rel="stylesheet" type="text/css" href="css/preloader.css?version=1.12">
 		<link rel="stylesheet" href="Node_Installs/node_modules/aos/dist/aos.css" />
 		<meta name="google-site-verification" content="_6x-KfPn-Sa0j8rYFOq90W849b3f24EB70aWiCQB-88" />
@@ -349,10 +349,10 @@
 					</div>
 
 
-					<div class="portfolio-inner" style="display:none;">
+					<div class="portfolio-inner">
 						<div class="portfolio-inner-left">
 							<div class="portfolio-inner-left-image-container">
-								<img src="img/macbook.png" alt="">
+								<img src="img/eventPortfolio.png" alt="">
 							</div>
 						</div>
 						<div class="portfolio-inner-right">
@@ -375,7 +375,7 @@
 								</div>
 								<div>
 									<p>Repo</p>
-									<a href="#">
+									<a href="https://github.com/RhysClarkWebDev/NoOrdinaryEvent-Website/tree/Master">
 										<div class="portfolioButtons">
 											<p>View</p>
 										</div>

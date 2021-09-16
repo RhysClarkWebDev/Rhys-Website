@@ -107,7 +107,7 @@
 				<h4>Basic Site</h4>
 				<h5>Starting at</h5>
 				<div class="pricing-inner-price">
-					<p>400</p>
+					<p>500</p>
 				</div>
 				<div class="pricing-inner-list">
 					<p>A brochure website with up to 5 pages</p>
@@ -124,7 +124,7 @@
 				<h4>E-commerce</h4>
 				<h5>Starting at</h5>
 				<div class="pricing-inner-price">
-					<p>795</p>
+					<p>945</p>
 				</div>
 				<div class="pricing-inner-list">
 					<p>Wordpress + Woocommerce</p>
@@ -144,7 +144,7 @@
 				<h4>Premium</h4>
 				<h5>Starting at</h5>
 				<div class="pricing-inner-price">
-					<p>500</p>
+					<p>600</p>
 				</div>
 				<div class="pricing-inner-list">
 					<p>A brochure website with up to 8 pages</p>
