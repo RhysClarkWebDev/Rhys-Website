@@ -3,7 +3,7 @@
 	<head>
 		<script src="Node_Installs/node_modules/aos/dist/aos.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/resetstyle.css?version=#">
-		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.21">
+		<link rel="stylesheet" type="text/css" href="css/style.css?version=1.31">
 		<link rel="stylesheet" type="text/css" href="css/preloader.css?version=1.12">
 		<link rel="stylesheet" href="Node_Installs/node_modules/aos/dist/aos.css" />
 		<meta name="google-site-verification" content="_6x-KfPn-Sa0j8rYFOq90W849b3f24EB70aWiCQB-88" />
@@ -17,8 +17,8 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-		<title>Web Developer Portfolio, UI/UX Javascript Specialist</title>
-		<meta name="description" content="UK based Freelance Front End Web Developer & Web Designer specialising in UI / UX, Animation and Javascript. Ecommerce store design and development available.">
+		<title>North East Web Design | Rhys Clark Web Designer & Developer | Newcastle</title>
+		<meta name="description" content="Web design North East, Newcastle & surrounding areas web development. Creative website designer, web hosting and SEO support to get your business noticed.">
 		<meta name="keywords" content="web developer, website developer, front end developer, web developer near me, freelance, website developers, ecommerce, agency web design">
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,13 +44,22 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/preloader.js"></script>
 		<script src="Node_Installs/node_modules/aos/dist/aos.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-208062257-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-208062257-2');
+		</script>
 
 	</head>
 
-<body>
-	<script>
-		AOS.init();
-	</script>
+	<body>
+		<script>
+			AOS.init();
+		</script>
 
 
 
@@ -59,33 +68,35 @@
 
 
 	<!--MOBILE HAMBURGER MENU-->
-	<div class="hamburger-menu-container"id="hamburger-menu-container">
-		<div class="hamburger-menu">
-			<p>Menu</p>
-				<div class="hamburger"id="openmenu">
-					<svg height="384pt" viewBox="0 -53 384 384" width="384pt" xmlns="http://www.w3.org/2000/svg"><path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" class="white"/><path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" class="white"/><path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 	16-16zm0 0" class="white"/></svg>
-				</div>
-		</div>
-	</div>
-
-
-	<!--HAMBURGER NAVIGATION FULL SCREEN MENU-->
-	<div class="hamburger-fullscreen-container" id="hamburger-fullscreen-container">
-		<div class="hamburger"id="closemenu">
-			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343.52 343.52"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M356.68,49.06,48.05,355.8c-7.75,7.69-18.67,9.27-24.4,3.51s-4.08-16.68,3.67-24.37L336,28.2c7.75-7.69,18.67-9.27,24.4-3.51S364.43,41.37,356.68,49.06Z" transform="translate(-20.24 -20.24)"/><path class="cls-1" d="M334.94,356.68,28.2,48.05c-7.69-7.75-9.27-18.67-3.51-24.4s16.68-4.08,24.37,3.67L355.8,336c7.69,7.75,9.27,18.67,3.51,24.4S342.63,364.43,334.94,356.68Z" transform="translate(-20.24 -20.24)"/></svg>
-		</div>
-
-
-		<div class="hamburger-navigation">
-			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="method.php">Method</a></li>
-				<!-- <li><a href="portfolio.php">Portfolio</a></li> -->
-				<li><a href="contact.php">Contact</a></li>
-				<li><a href="pricing.php">Pricing</a></li>
+	<div class="navigation-mobile">
+		<nav class="navBar">
+			<div class="hamburger-menu">
+				<div class="line line-1"></div>
+				<div class="line line-2"></div>
+				<div class="line line-3"></div>
+			</div>
+			<ul class="nav-list">
+				<li class="nav-list">
+					<a href="index.php" class="nav-link">Home</a>
+				</li>
+				<li class="nav-list">
+					<a href="method.php" class="nav-link">Method</a>
+				</li>
+				<li class="nav-list">
+					<a href="pricing.php" class="nav-link">Pricing</a>
+				</li>
+				<li class="nav-list">
+					<a href="blogs.php" class="nav-link">Blog</a>
+				</li>
+				<li class="nav-list">
+					<a href="contact.php" class="nav-link">Contact</a>
+				</li>
 			</ul>
-		</div>
+		</nav>
 	</div>
+
+
+
 
 
 <!--VIDEO BACKGROUND-->
@@ -330,7 +341,7 @@
 
 								<div>
 									<p>Live</p>
-									<a href="https://cherry-parts.co.uk">
+									<a href="https://cherry-parts.co.uk" target="_blank">
 										<div class="portfolioButtons">
 											<p>View</p>
 										</div>
@@ -367,7 +378,7 @@
 
 								<div>
 									<p>Live</p>
-									<a href="https://www.noordinaryevent.co.uk">
+									<a href="https://www.noordinaryevent.co.uk" target="_blank">
 										<div class="portfolioButtons">
 											<p>View</p>
 										</div>
@@ -375,7 +386,42 @@
 								</div>
 								<div>
 									<p>Repo</p>
-									<a href="https://github.com/RhysClarkWebDev/NoOrdinaryEvent-Website/tree/Master">
+									<a href="https://github.com/RhysClarkWebDev/NoOrdinaryEvent-Website/tree/Master" target="_blank">
+										<div class="portfolioButtons">
+											<p>View</p>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-inner">
+						<div class="portfolio-inner-left">
+							<div class="portfolio-inner-left-image-container">
+								<img src="img/mikeBuilderPortfolio.png" alt="Web developer portfolio builder image">
+							</div>
+						</div>
+						<div class="portfolio-inner-right">
+							<h2>Mike Robins Builder</h2>
+							<h3>Local General Builder</h3>
+							<ul>
+								<li>Design and Development by me (HTML, CSS, Javascript)</li>
+								<li>Formal, single page website with everything at a glance.</li>
+								<li>Basic brochure site to be improved upon in the future</li>
+							</ul>
+							<div class="portfolio-button-holder">
+
+								<div>
+									<p>Live</p>
+									<a href="https://www.mikerobinsbuilder.co.uk" target="_blank">
+										<div class="portfolioButtons">
+											<p>View</p>
+										</div>
+									</a>
+								</div>
+								<div>
+									<p>Repo</p>
+									<a href="https://github.com/RhysClarkWebDev/Mike-Website" target="_blank">
 										<div class="portfolioButtons">
 											<p>View</p>
 										</div>

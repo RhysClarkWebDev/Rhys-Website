@@ -7,15 +7,15 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/resetstyle.css?version=#">
-    <link rel="stylesheet" type="text/css" href="css/methodstyle.css?version=#">
+    <link rel="stylesheet" type="text/css" href="css/methodstyle.css?version=1.1">
 		<link rel="stylesheet" type="text/css" href="css/preloader.css?version=1.12">
 		<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
-		<title>Method Web Developer Portfolio, UI/UX Javascript Specialist</title>
-		<meta name="description" content="This is the method i will use with you during our relationship together on our web development project.">
+		<title>Method | Rhys Clark Web Designer & Developer</title>
+		<meta name="description" content="Wondering what the method is for web design and development? Come and take a phased web design approach here, from start to finish.">
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
@@ -38,40 +38,46 @@
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/preloader.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-208062257-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
+		  gtag('config', 'UA-208062257-2');
+		</script>
 	</head>
 <!--Start Of text & Illustrations-->
 <body>
 	<html>
 
 		<div class="method-section">
-			<!--HAMBURGER NAVIGATION MENU-->
-			<div class="hamburger-menu-container"id="hamburger-menu-container">
-				<div class="hamburger-menu">
-					<p>Menu</p>
-						<button class="hamburger"id="openmenu">
-							<svg height="384pt" viewBox="0 -53 384 384" width="384pt" xmlns="http://www.w3.org/2000/svg"><path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/><path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/><path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 	16-16zm0 0"/></svg>
-						</button>
-				</div>
-			</div>
-
-
-		<!--NAVIGATION FULL SCREEN MENU-->
-			<div class="hamburger-fullscreen-container" id="hamburger-fullscreen-container">
-				<div class="hamburger"id="closemenu">
-					<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343.52 343.52"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M356.68,49.06,48.05,355.8c-7.75,7.69-18.67,9.27-24.4,3.51s-4.08-16.68,3.67-24.37L336,28.2c7.75-7.69,18.67-9.27,24.4-3.51S364.43,41.37,356.68,49.06Z" transform="translate(-20.24 -20.24)"/><path class="cls-1" d="M334.94,356.68,28.2,48.05c-7.69-7.75-9.27-18.67-3.51-24.4s16.68-4.08,24.37,3.67L355.8,336c7.69,7.75,9.27,18.67,3.51,24.4S342.63,364.43,334.94,356.68Z" transform="translate(-20.24 -20.24)"/></svg>
-				</div>
-
-
-				<div class="hamburger-navigation">
-					<ul>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="method.php">Method</a></li>
-						<!-- <li><a href="portfolio.php">Portfolio</a></li> -->
-						<li><a href="contact.php">Contact</a></li>
-						<li><a href="pricing.php">Pricing</a></li>
+			<!--MOBILE HAMBURGER MENU-->
+			<div class="navigation-mobile">
+				<nav class="navBar">
+					<div class="hamburger-menu">
+						<div class="line line-1"></div>
+						<div class="line line-2"></div>
+						<div class="line line-3"></div>
+					</div>
+					<ul class="nav-list">
+						<li class="nav-list">
+							<a href="index.php" class="nav-link">Home</a>
+						</li>
+						<li class="nav-list">
+							<a href="method.php" class="nav-link">Method</a>
+						</li>
+						<li class="nav-list">
+							<a href="pricing.php" class="nav-link">Pricing</a>
+						</li>
+						<li class="nav-list">
+							<a href="blogs.php" class="nav-link">Blog</a>
+						</li>
+						<li class="nav-list">
+							<a href="contact.php" class="nav-link">Contact</a>
+						</li>
 					</ul>
-				</div>
+				</nav>
 			</div>
 
 		<script type="text/javascript" src="js/master.js?version=1.1"></script>

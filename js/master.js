@@ -1,28 +1,15 @@
-const openMenu = document.getElementById("openmenu");
-const closeMenu = document.getElementById("closemenu");
-const mainMenu = document.getElementById("hamburger-fullscreen-container");
-const menuContainer = document.getElementById("hamburger-menu-container");
+const menuIcon = document.querySelector('.hamburger-menu');
+const navBar = document.querySelector('.navBar');
+const navList = document.querySelector('.nav-list');
+
+navList.addEventListener('click', () => {
+  navBar.classList.toggle('change');
+})
 
 
-openMenu.addEventListener('click', show);
-closeMenu.addEventListener('click', close);
-
-function show(){
-  mainMenu.style.transition = 'right ease-in-out 0.5s';
-  mainMenu.style.display = 'flex';
-  mainMenu.style.right = '0%';
-  menuContainer.style.opacity = '0%';
-  body.style.overflow = 'hidden';
-  body.style.height = '100vh';
-}
-function close(){
-  mainMenu.style.right = '-100%';
-  menuContainer.style.opacity = '100%';
-  body.style.overflow = "auto"
-  body.style.height = 'auto';
-}
-
-
+menuIcon.addEventListener('click', () => {
+  navBar.classList.toggle('change');
+})
 
 
 const typedTextSpan = document.querySelector(".typed-text");

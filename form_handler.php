@@ -1,6 +1,6 @@
 <?php
-  $email_error = $budget_error = $subject_error = $message_error = "";
-  $email = $budget = $subject = $message = $success = "";
+  $email_error = $first_name_error = $last_name_error = $number_error = $budget_error = $subject_error = $message_error = $recaptcha_error = "";
+  $email = $first_name = $last_name = $number = $budget = $subject = $message = $success = "";
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["email"])) {
@@ -13,6 +13,26 @@
       }
     }
 
+    if (empty($_POST["first_name"])) {
+      $first_name_error = "First name is required";
+    }
+    else {
+      $first_name = test_input($_POST["first_name"]);
+      }
+
+      if (empty($_POST["last_name"])) {
+        $last_name_error = "Last name is required";
+      }
+      else {
+        $last_name = test_input($_POST["last_name"]);
+        }
+
+        if (empty($_POST["number"])) {
+          $number_error = "Number is required";
+        }
+        else {
+          $number = test_input($_POST["number"]);
+          }
 
     if (empty($_POST["budget"])) {
       $budget_error = "Budget is required";
@@ -42,7 +62,7 @@
 
 
 
-    if($email_error == "" and $budget_error == "" and $response->success) {
+    if($email_error == "" and $first_name_error == "" and $last_name_error == "" and $number_error == "" and $budget_error == "" and $response->success) {
       $message_body = "";
       unset ($_POST['submit']);
       foreach ($_POST as $key => $value){
@@ -53,6 +73,26 @@
 
       $to = 'webdev@rhys-clark.com';
       $subject = test_input($_POST["budget"]);
+
+
+      $message = "<html>
+      <body>
+      <br>
+      <br>
+      <h2>DETAILS</h2>
+      <p><span style='font-weight:bold'> Name:</span> $first_name $last_name</p>
+      <p><span style='font-weight:bold'> Phone:</span> $number</p>
+      <p><span style='font-weight:bold'> Budget:</span> $budget</p>
+      <br>
+      <br>
+      <h2>MESSAGE</h2>
+      <p>$message</p>
+
+
+      </body>
+      </html>";
+
+
 
       $headers = "From: $email" . "\r\n";
       $headers .= "MIME-Version: 1.0\r\n";
